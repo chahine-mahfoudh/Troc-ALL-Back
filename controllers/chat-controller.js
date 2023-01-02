@@ -48,6 +48,7 @@ exports.envoyerMessage = async (req, res) => {
         senderConversation.sender = sender
         senderConversation.receiver = receiver
     }
+    
     senderConversation.lastMessage = description
     senderConversation.lastMessageDate = Date()
     senderConversation.save()

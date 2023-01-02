@@ -69,6 +69,7 @@ exports.login = async (req, res) => {
   }
 }
 
+
 exports.loginWithSocial = async (req, res) => {
   const { username, email, role } = req.body
 
@@ -167,7 +168,7 @@ exports.forgotPassword = async (req, res) => {
       message: "L'email de reinitialisation a été envoyé a " + user.email,
     })
   } else {
-    res.status(404).send({ message: "User innexistant" })
+    res.status(404).send({ message: "User does not exist " })
   }
 }
 
