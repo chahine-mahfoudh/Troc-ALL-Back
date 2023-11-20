@@ -1,5 +1,5 @@
 # Serveur node backend Troc'All
-Ce repo contient les fonctions a consommer par notre application iOS 
+Ce repo contient les fonctions a consommer par notre application iOS/Android Troc'All
 
 ## Construit avec
 - Javascript 
@@ -24,5 +24,6 @@ Ce repo contient les fonctions a consommer par notre application iOS
 - Inscription (POST): <a href ="localhost:3000/api/user/inscription">localhost:3000/api/user/inscription</a>
 - Confirmation email (GET): <a href ="localhost:3000/api/confirmation/:token">localhost:3000/api/user/confirmation/:token</a>
 - ModifierProfil (PUT): <a href ="localhost:3000/api/editProfil">localhost:3000/api/user/editProfil</a>
+and other functionalities...
 
 
